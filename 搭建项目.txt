@@ -1,0 +1,21 @@
+1 创建项目
+	1. 创建项目
+	    vue create sell-app
+	
+    2. 启动项目
+		yarn serve
+		
+		
+2 集成UI框架
+	1. 安装
+		yarn add iview
+		
+	2. 引入
+		import iView from 'iview'; // JS
+		import 'iview/dist/styles/iview.css'; // CSS
+		
+	3. 注册
+		Vue.use(iView);
+		
+	4. 测试是否可以使用
+		<i-button type="success">成功按钮</i-button>
